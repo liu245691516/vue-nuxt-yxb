@@ -1,6 +1,6 @@
 # yxb
 
-> yingxiaobao
+> vue-nuxt  
 
 ## Build Setup
 
