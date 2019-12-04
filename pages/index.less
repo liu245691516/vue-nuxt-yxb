@@ -1,0 +1,215 @@
+// 步骤
+.step{
+    width:1200px;
+    margin:25px auto 0;
+    background:#f6f6f6;
+    border:1px solid #e5e5e5;
+    height: 82px;
+    ul{
+        display:flex;
+        li{
+            flex:1;
+            padding: 14px 8px 14px 14px;
+            background:url(../assets/image/step_arrows.png) center right 10px no-repeat;
+            height:82px;
+            &:last-child{
+                background:none;
+                padding-right:0;
+            }
+            .index{
+                width:37px;
+                height:37px;
+                line-height: 34px;
+                text-align: center;
+                color:#ff6900;
+                border:1px solid #ff6900;
+                border-radius: 50%;
+                font-weight: bold;
+                float: left;
+            }
+            .step_name{
+                color:#666;
+                margin-left:50px;
+                p.title{
+                    font-size:18px;
+                    color:#000;
+                    margin:5px 0 10px 0;
+                }
+            }
+        }
+    }
+}
+.divider{
+    width:490px;
+    margin:0 auto;
+    padding-top:68px;
+    text-align: center;
+    .border_l, .border_r{
+        width:120px;
+        height:1px;
+        background:#e5e5e5;
+        float: left;
+    }
+    .border_r{
+        float: right;
+    }
+    .title{
+        display: inline-block;
+        vertical-align: top;
+        margin-top:-16px;
+        font-size:28px;
+        color:#000;
+    }
+}
+// 限时推广
+.time_promote{
+    width:1200px;
+    margin:0 auto;
+    height:396px;
+    .describe{
+        text-align: center;
+        padding:15px 0 46px 0;
+        color:#666;
+    }
+    .promote_list{
+        li{
+            float: left;
+            width:282px;
+            height:226px;
+            margin-right:24px;
+            background:#f6f6f6;
+            border-top:2px solid #33b811;
+            &:last-child{
+                margin:0;
+            }
+            .pro_list_t{
+                margin:22px 20px;
+                p.title{
+                    font-size:18px;
+                    color:#000;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                p.desc{
+                    line-height: 20px;
+                    height:52px;
+                    overflow: hidden;
+                    color:#666;
+                    padding-top:12px;
+                }
+                .content{
+                    margin-top:10px;
+                    .time_warp{
+                        width:192px;
+                        float: left;
+                        .time_t{
+                            color:#ff6900;
+                            span.end{
+                                font-size:18px;
+                            }
+                        }
+                        p.date{
+                            margin-top:5px;
+                            font-size:12px;
+                            color:#000;
+                            span{
+                                display: inline-block;
+                                padding:4px 3px;
+                                background:#333333;
+                                color:#fff;
+                                border-radius: 6px;
+                                margin-right:2px;
+                            }
+                        }
+                    }
+                    .pro_img{
+                        width:50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background:#999;
+                        display: inline-block;
+                    }
+                }
+            }
+            .pro_list_b{
+                height:48px;
+                background:#e6e6e6;
+                .price{
+                    padding-left:15px;
+                    display: inline-block;
+                    font-size:12px;
+                    .current_price{
+                        color:#ff6900;
+                        span{
+                            font-size:18px;
+                            font-weight: bold;
+                            line-height: 32px;
+                        }   
+                    }
+                    .original_price{
+                        text-decoration:line-through;
+                    }
+                }
+                a.buy{
+                    display: inline-block;
+                    width:110px;
+                    float:right;
+                    line-height: 48px;
+                    background:#cccccc url(../assets/image/gray_arrows.png) center left no-repeat;
+                    text-align: center;
+                    text-indent: 10px;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+
+// 合作伙伴
+.partner{
+    background:#f6f6f6;
+    height:675px;
+    .describe{
+        text-align: center;
+        color:#666;
+        padding: 15px 0 78px 0;
+    }
+    .partner_wrap{
+        background:#fff;
+        .partner_t{
+            border:1px solid #e5e5e5;
+            height:50px;
+            padding:0 15px;
+            line-height: 50px;
+            span{
+                font-size:16px;
+                color:#000;
+            }
+            a.more{
+                float:right;
+                color:#999;
+            }
+        }
+        .partner_list{
+            display: flex;
+            flex-wrap: wrap;
+            width:100%;
+            li{
+                width:200px;
+                height:127px;
+                cursor: pointer;
+                &.left_bottom{
+                    border-bottom:1px solid #e5e5e5;
+                    border-left:1px solid #e5e5e5;
+                }
+                &.right{
+                    border-right:1px solid #e5e5e5;
+                }
+                img{
+                    padding:18px 25px;
+                }
+            }
+        }
+    }
+}

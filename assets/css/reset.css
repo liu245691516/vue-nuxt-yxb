@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'SourceHanSansSC-Normal';
+  src: url('/SourceHanSansSC-Normal.otf');
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  font-family: "SourceHanSansSC-Normal", sans-serif;
+}
+body {
+  line-height: 1;
+  font-size: 14px;
+  color: #333;
+}
+:focus {
+  outline: 1;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+ul,
+ol {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: #333;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+._center {
+  width: 1200px;
+  margin: 0 auto;
+}
+input {
+  outline: none;
+  background: transparent;
+  border: none;
+  outline: medium;
+  box-sizing: border-box;
+}
+textarea {
+  resize: none;
+}
+*:focus {
+  outline: none;
+  background-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+.v-pagination__list {
+  display: none !important;
+}
+.page_wrap div.v-pagination > ul > li.active > a,
+div.v-pagination > ul > li.active > span {
+  cursor: default;
+  color: #ff6900 !important;
+  background-color: #fff;
+  border: 1px solid #ff6900 !important;
+  z-index: 10;
+}
+.page_wrap div.v-pagination > ul > li > a:hover {
+  background-color: #fff;
+  border: 1px solid #ff6900;
+  color: #ff6900;
+}
+.breadcrumb {
+  color: #666;
+  line-height: 32px;
+  padding: 12px 0 20px 0;
+}
+.breadcrumb a {
+  color: #666;
+  margin-left: 5px;
+}
+.breadcrumb span {
+  margin-left: 5px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.el-pagination button,
+.el-pagination span:not([class*=suffix]) {
+  padding: 0 8px;
+}
+.yxb_no_data {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #fff !important;
+  border: 1px solid #ff8e00 !important;
+  color: #ff8e00 !important;
+}
+.page_template {
+  text-align: center;
+}
